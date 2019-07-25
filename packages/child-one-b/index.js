@@ -1,0 +1,1 @@
+console.log("Child package B has installed");

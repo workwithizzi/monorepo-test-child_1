@@ -1,11 +1,8 @@
 {
-	"name": "@monorepo-test/child-one",
+	"name": "@monorepo-test/child-one-b",
 	"version": "0.0.1",
 	"main": "index.js",
 	"license": "MIT",
-	"workspaces": [
-		"packages/*"
-	],
 	"scripts": {
 		"install": "node index.js"
 	}
