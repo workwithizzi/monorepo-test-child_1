@@ -1,7 +1,5 @@
-const childOne = require("./index.js")
+const chalk = require("chalk")
 
-childOne()
-
-const localPackageTwo = require("@monorepo-test/package-one")
-
-localPackageTwo()
+module.exports = () => {
+	console.log(chalk.red('hello from child-1! I\'m managed in a separate repo!'))
+}
